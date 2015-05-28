@@ -3,7 +3,6 @@ import sys
 from contextlib import contextmanager
 import logging
 
-from django.test import simple
 try:
     from django.test.runner import DiscoverRunner
 except ImportError:
